@@ -30,6 +30,7 @@ Python package to calculate health indicators
 
 ```bash
 git clone git@github.com:ed-rhilbert/pyhealth.git
+cd pyhealth/
 python3 -m venv venv
 source venv/bin activate
 pip install -r requirements.txt
