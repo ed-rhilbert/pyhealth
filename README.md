@@ -1,18 +1,18 @@
-# pyHealth
+# pyhealth
 
+![](pyhealth.png)
 Python package to calculate health indicators
 
-Renan HILBERT
+- Renan HILBERT
+- v0.0.1 (July 2023)
 
-v0.0.1 (July 2023)
-
-## Installation
+# Installation
 
 ```bash
- pip install git+https://github.com/ed-rhilbert/data-sante
+ pip install git+https://github.com/ed-rhilbert/pyhealth
 ```
 
-## Getting started
+# Getting started
 
 ```python
 >>> from pyhealth.calculations.calculate import calculate_bmi
@@ -25,3 +25,29 @@ v0.0.1 (July 2023)
 
 [26.122448979591837, 20.202020202020204, 29.382716049382715]
 ```
+
+# Contribution
+
+```bash
+git clone git@github.com:ed-rhilbert/pyhealth.git
+python3 -m venv venv
+source venv/bin activate
+pip install -r requirements.txt
+pip install -e .
+```
+
+## Tests
+
+```bash
+pytest
+```
+
+## Test with code coverage
+
+```bash
+pytest --cov
+```
+
+## Documentation
+
+TO DO
