@@ -1,0 +1,4 @@
+-e .
+ipykernel
+pytest
+pytest-cov
