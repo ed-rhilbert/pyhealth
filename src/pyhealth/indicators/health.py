@@ -1,6 +1,5 @@
 from typing import Union
 
-
 def bmi(height: float, weight: float) -> Union[float, None]:
     """Calculate BMI (Body Mass Index)
 
@@ -27,4 +26,4 @@ def bmi(height: float, weight: float) -> Union[float, None]:
     None
     """
     if height != 0:
-        return (weight/height**2)
+        return (weight/height**2) if height > 0 and weight > 0 else None
